@@ -152,3 +152,17 @@ def add(arr):
     arr.append(56)
 add(arr)
 print(arr)
+
+array = [2, 3, 4, 5, 6 , 6]
+
+if 6 in array:
+    array.remove(6)
+    print("6 is removed from the array")
+    print("Updated array:", array)
+
+
+if 6 in array:
+
+    print("6 is present in the array")
+else:
+    print("6 is not present in the array")
